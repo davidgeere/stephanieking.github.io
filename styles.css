@@ -236,7 +236,7 @@ article {
     margin: 0 auto;
     padding: 0 16px;
 
-    background-image: url("/assets/flowers.svg");
+    background-image: url("docs/assets/flowers.svg");
     background-repeat: no-repeat;
     background-position: right bottom;
 
