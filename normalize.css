@@ -1,0 +1,104 @@
+/* Reset box-sizing to border-box */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Remove list styles */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}
+
+/* Set default link colors */
+a:link,
+a:visited,
+a:hover,
+a:active,
+body
+{
+    color: #161615;
+}
+
+/* Set default background color */
+body {
+    background-color: #ffffff;
+}
+
+/* Set default line height */
+body {
+    line-height: 1.5;
+}
+
+/* Set default text alignment */
+body {
+    text-align: left;
+}
+
+/* Set default max-width */
+body {
+    max-width: 100%;
+}
+
+/* Set default margin and padding for images */
+img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default border to none */
+img {
+    border: none;
+}
+
+/* Set default display for block elements */
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li {
+    display: block;
+}
+
+/* Set default display for inline elements */
+span,
+a,
+strong,
+em,
+i,
+b {
+    display: inline;
+}

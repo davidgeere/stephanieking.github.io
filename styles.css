@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #161615;
+    --secondary-color: #2C2C2A;
+    --accent-color: #F0C5EE;
+    --background-color: #E6E2DA;
+
+    --title-font-family: 'Playfair Display', serif;
+    --body-font-family: 'Raleway', sans-serif;
+
+    --hl1-font-family: var(--title-font-family);
+    --hl1-font-weight: 300;
+    --hl1-font-size: 96px;
+    --hl1-line-height: 150%;
+    --hl1-letter-spacing: -1.5;
+
+    --hl2-font-family: var(--title-font-family);
+    --hl2-font-weight: 300;
+    --hl2-font-size: 60px;
+    --hl2-line-height: 150%;
+    --hl2-letter-spacing: -0.5;
+
+    --hl3-font-family: var(--title-font-family);
+    --hl3-font-weight: 400;
+    --hl3-font-size: 48px;
+    --hl3-line-height: 150%;
+    --hl3-letter-spacing: 0;
+
+    --hl4-font-family: var(--title-font-family);
+    --hl4-font-weight: 400;
+    --hl4-font-size: 34px;
+    --hl4-line-height: 150%;
+    --hl4-letter-spacing: 0.25;
+
+    --hl5-font-family: var(--title-font-family);
+    --hl5-font-weight: 400;
+    --hl5-font-size: 24px;
+    --hl5-line-height: 150%;
+    --hl5-letter-spacing: 0;
+
+    --hl6-font-family: var(--title-font-family);
+    --hl6-font-weight: 500;
+    --hl6-font-size: 20px;
+    --hl6-line-height: 150%;
+    --hl6-letter-spacing: 0.15;
+
+    --st1-font-family: var(--title-font-family);
+    --st1-font-weight: 400;
+    --st1-font-size: 16px;
+    --st1-line-height: 150%;
+    --st1-letter-spacing: 0.15;
+
+    --st2-font-family: var(--title-font-family);
+    --st2-font-weight: 500;
+    --st2-font-size: 14px;
+    --st2-line-height: 150%;
+    --st2-letter-spacing: 0.1;
+
+    --b1-font-family: var(--body-font-family);
+    --b1-font-weight: 400;
+    --b1-font-size: 20px;
+    --b1-line-height: 150%;
+    --b1-letter-spacing: 0.5;
+
+    --b2-font-family: var(--body-font-family);
+    --b2-font-weight: 400;
+    --b2-font-size: 16px;
+    --b2-line-height: 150%;
+    --b2-letter-spacing: 0.5;
+
+    --b3-font-family: var(--body-font-family);
+    --b3-font-weight: 400;
+    --b3-font-size: 14px;
+    --b3-line-height: 150%;
+    --b3-letter-spacing: 0.25;
+
+    --btn-font-family: var(--body-font-family);
+    --btn-font-weight: 400;
+    --btn-font-size: 14px;
+    --btn-line-height: 150%;
+    --btn-letter-spacing: 1.25;
+
+    --ol-font-family: var(--body-font-family);
+    --ol-font-weight: 400;
+    --ol-font-size: 10px;
+    --ol-line-height: 150%;
+    --ol-letter-spacing: 1.5;
+
+    --ctn-font-family: var(--body-font-family);
+    --ctn-font-weight: 400;
+    --ctn-font-size: 12px;
+    --ctn-line-height: 150%;
+    --ctn-letter-spacing: 0.4;
+
+}
+
+::selection,
+::-moz-selection {
+    color: var(--primary-color);
+    background: var(--accent-color);
+}
+
+* {
+    color: var(--primary-color);
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.hl1 {
+    font-family: var(--hl1-font-family);
+    font-weight: var(--hl1-font-weight);
+    font-size: var(--hl1-font-size);
+    line-height: var(--hl1-line-height);
+    letter-spacing: var(--hl1-letter-spacing);
+}
+
+.hl2 {
+    font-family: var(--hl2-font-family);
+    font-weight: var(--hl2-font-weight);
+    font-size: var(--hl2-font-size);
+    line-height: var(--hl2-line-height);
+    letter-spacing: var(--hl2-letter-spacing);
+}
+
+.hl3 {
+    font-family: var(--hl3-font-family);
+    font-weight: var(--hl3-font-weight);
+    font-size: var(--hl3-font-size);
+    line-height: var(--hl3-line-height);
+    letter-spacing: var(--hl3-letter-spacing);
+}
+
+.hl4 {
+    font-family: var(--hl4-font-family);
+    font-weight: var(--hl4-font-weight);
+    font-size: var(--hl4-font-size);
+    line-height: var(--hl4-line-height);
+    letter-spacing: var(--hl4-letter-spacing);
+}
+
+.hl5 {
+    font-family: var(--hl5-font-family);
+    font-weight: var(--hl5-font-weight);
+    font-size: var(--hl5-font-size);
+    line-height: var(--hl5-line-height);
+    letter-spacing: var(--hl5-letter-spacing);
+}
+
+.hl6 {
+    font-family: var(--hl6-font-family);
+    font-weight: var(--hl6-font-weight);
+    font-size: var(--hl6-font-size);
+    line-height: var(--hl6-line-height);
+    letter-spacing: var(--hl6-letter-spacing);
+}
+
+.st1 {
+    font-family: var(--st1-font-family);
+    font-weight: var(--st1-font-weight);
+    font-size: var(--st1-font-size);
+    line-height: var(--st1-line-height);
+    letter-spacing: var(--st1-letter-spacing);
+}
+
+.st2 {
+    font-family: var(--st2-font-family);
+    font-weight: var(--st2-font-weight);
+    font-size: var(--st2-font-size);
+    line-height: var(--st2-line-height);
+    letter-spacing: var(--st2-letter-spacing);
+}
+
+.b1 {
+    font-family: var(--b1-font-family);
+    font-weight: var(--b1-font-weight);
+    font-size: var(--b1-font-size);
+    line-height: var(--b1-line-height);
+    letter-spacing: var(--b1-letter-spacing);
+}
+
+section > p,
+.b2 {
+    font-family: var(--b2-font-family);
+    font-weight: var(--b2-font-weight);
+    font-size: var(--b2-font-size);
+    line-height: var(--b2-line-height);
+    letter-spacing: var(--b2-letter-spacing);
+}
+
+.b3 {
+    font-family: var(--b3-font-family);
+    font-weight: var(--b3-font-weight);
+    font-size: var(--b3-font-size);
+    line-height: var(--b3-line-height);
+    letter-spacing: var(--b3-letter-spacing);
+}
+
+.btn {
+    font-family: var(--btn-font-family);
+    font-weight: var(--btn-font-weight);
+    font-size: var(--btn-font-size);
+    line-height: var(--btn-line-height);
+    letter-spacing: var(--btn-letter-spacing);
+}
+
+.ol {
+    font-family: var(--ol-font-family);
+    font-weight: var(--ol-font-weight);
+    font-size: var(--ol-font-size);
+    line-height: var(--ol-line-height);
+    letter-spacing: var(--ol-letter-spacing);
+}
+
+.ctn {
+    font-family: var(--ctn-font-family);
+    font-weight: var(--ctn-font-weight);
+    font-size: var(--ctn-font-size);
+    line-height: var(--ctn-line-height);
+    letter-spacing: var(--ctn-letter-spacing);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+article {
+    margin: 0 auto;
+    padding: 0 16px;
+
+    background-image: url("/assets/flowers.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+    margin-bottom: 64px;
+
+    & > header {
+
+        &.hero {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            & > .content {
+
+                margin-top: 96px;
+
+                & > h1 {
+                    padding-bottom: 56px;
+                }
+
+                & > h2 {
+                    padding-bottom: 16px;
+                    margin-bottom: 0px;
+                }
+
+                & > p {
+                    padding-bottom: 16px;
+                }
+            }
+
+            & > .illustration {
+                flex: 1;
+                text-align: right;
+            }
+        }
+    }
+    
+
+    & > section {
+        margin-bottom: 16px;
+
+        & > .hl4 {
+            padding-top: 24px;
+            padding-bottom: 16px;
+        }
+
+        & > .hl5 {
+            padding-bottom: 16px;
+        }
+
+        & > .hl6 {
+            padding-bottom: 16px;
+        }
+
+        & > p {
+            padding-bottom: 16px;
+
+            & > strong {
+                font-weight: 500;
+            }
+        }
+
+        &.approach {
+
+        }
+
+        &.expertise {
+
+        }
+
+        &.fees {
+
+        }
+
+        &.community {
+
+        }
+
+        &.education {
+            & > .item {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 16px;
+
+                & > .logo {
+                    width: 62px;
+                    text-align: center;
+                }
+
+                & > .content {
+                    width: 100%;
+                    text-align: left;
+                    padding-left: 16px;
+                }
+            }
+
+            & > .hl5 {
+                padding-top: 24px;
+                padding-bottom: 16px;
+            }
+
+            & > ul.training {
+
+                list-style:inside; 
+
+                & > li {
+                    display: list-item;
+
+                    margin-bottom: 8px;
+                }
+            }
+        }
+
+        &.contacts {
+            & > .details {
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: start;
+
+                & > .photo {
+                    width: 160px;
+                    text-align: center;
+
+                    & > img {
+                        border-radius: 100%;
+                        width: 160px;
+                        height: 160px;
+                    }
+                }
+                
+                & > .content {
+                    width: 100%;
+                    text-align: left;
+                    padding-left: 16px;
+                }
+            }
+        }
+    }
+
+    & > footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 576px) { article { max-width: 540px; }}
+@media (min-width: 768px) { article { max-width: 720px; }}
+@media (min-width: 992px) { article { max-width: 960px; } }
+@media (min-width: 1200px) { article { max-width: 1140px; }}
+
+@media (max-width: 1000px) { 
+    article { 
+        & > header {
+            &.hero {
+                & > .illustration {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 922px) { 
+    article { 
+        background-image: none;
+    }
+}
+
+@media (max-width: 768px) { 
+    article { 
+        & > header {
+            &.hero {
+                & > .content {
+                    margin-top: 54px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) { 
+    article { 
+        background-image: none;
+
+        & > section {
+            &.contacts {
+                & > .details {
+                    display: block;
+                    flex-direction: unset;
+                    justify-content: unset
+                    align-items: unset;
+
+                    & > .content {
+                        padding-top: 24px;
+                        padding-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
